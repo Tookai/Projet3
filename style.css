@@ -74,9 +74,9 @@ i {
 .header button {
   margin: 2rem;
   padding: 1rem;
+  outline: none;
   border: none;
   border-radius: 2rem;
-  background-color: #ff79da;
   color: white;
   font-weight: 500;
   box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.1);
@@ -142,6 +142,7 @@ i {
 
 .empty {
   display: flex;
+  animation: fadeIn 0.4s ease-in;
 }
 
 .main__coeur:hover .full {
