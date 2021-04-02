@@ -128,21 +128,18 @@ i {
 .main__cards {
   margin-bottom: 2rem;
   margin-top: 1rem;
-  animation: jump 1s;
 }
 
 @keyframes jump {
   0% {
-    transform: translateY(0);
-    opacity: 0.1;
+    transform: translateY(-0.3rem);
+    opacity: 0;
   }
   40% {
-    transform: translateY(-0.3rem);
-    opacity: 0.9;
+    transform: translateY(-0.2rem);
   }
   80% {
-    transform: translateY(0.2rem);
-    opacity: 0.9;
+    transform: translateY(0.1rem);
   }
   100% {
     transform: translateY(0);
@@ -151,6 +148,8 @@ i {
 }
 
 .main__card {
+  animation: jump 0.5s ease-in;
+  animation-fill-mode: backwards;
   display: flex;
   overflow: hidden;
   justify-content: space-between;
@@ -161,48 +160,51 @@ i {
   box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
-.main__desc {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.3rem 0;
-  font-size: 0.9rem;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  background-color: blue;
+.delay-0 {
+  animation-delay: 0s;
 }
 
-.main__desc div:nth-child(1) {
-  flex: 1;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  background-color: red;
+.delay-1 {
+  animation-delay: 0.5s;
 }
 
-.main__desc div:nth-child(2) {
-  white-space: nowrap;
-  background-color: yellow;
-  padding-left: 1.5rem;
-}
-
-.main__card:hover .main__desc p:nth-child(1) {
+.delay-2 {
+  animation-delay: 1s;
 }
 
 .main__txt {
+  display: flex;
+  flex-direction: column;
   flex: 1;
   padding: 0.6rem;
+  background-color: green;
+  overflow: hidden;
 }
 
-.main__txt h3 {
-  max-width: 266px;
+.main__title {
+  padding-bottom: 0.4rem;
+}
+
+.main__desc {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.main__prix {
+  font-weight: bold;
+  background-color: red;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0.6rem;
 }
 
 .main__check {
   background-color: #99e2d0;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  margin: 0rem -5rem 0rem 1rem;
+  margin: 0rem -4rem 0rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;

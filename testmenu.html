@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>omf - menu</title>
-    <link rel="stylesheet" href="menus.css" />
+    <link rel="stylesheet" href="testmenu.css" />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -22,40 +22,39 @@
           <a href="index.html"><i class="fas fa-arrow-left"></i></a>
           <div><img src="img/omf.svg" alt="logo ohmyfood" /></div>
         </div>
-        <img src="img/delices.jpg" alt="photo d'un plat" class="header__img" />
+        <img src="img/palette.jpg" alt="photo d'un plat" class="header__img" />
       </header>
 
       <main class="main">
         <div class="main__resto">
-          <h1>Le délice des sens</h1>
-          <div class="main__coeur">
+          <h1>La palette du goût</h1>
+          <a href="#" class="main__coeur">
             <div class="empty"><i class="far fa-heart"></i></div>
             <div class="full"><i class="fas fa-heart"></i></div>
-          </div>
+          </a>
         </div>
 
         <div class="main__entrees">
           <h2>entrées</h2>
           <div class="main__bar"></div>
           <div class="main__cards">
-            <div class="main__card">
+            <div class="main__card delay-0">
               <div class="main__txt">
-                <h3>Tartare de thon</h3>
-                <div class="main__desc">
-                  <p>Assaisonné au yuzu</p>
-                  <p><strong>25€</strong></p>
-                </div>
+                <h3 class="main__title">Fricassée d'escargot avec de l'estragon</h3>
+                <p class="main__desc">Au piment d'espelette et aussi avec des</p>
               </div>
+              <p class="main__prix">25€</p>
+
               <div class="main__check">
                 <a href="#"><i class="fas fa-check-circle"></i></a>
               </div>
             </div>
 
-            <div class="main__card">
+            <div class="main__card delay-1">
               <div class="main__txt">
-                <h3>Bouchée de homard croustillant</h3>
+                <h3>Foie gras de canard mi-cuit</h3>
                 <div class="main__desc">
-                  <p>Et sa farandole de petits légumes</p>
+                  <p>Et ses copeaux de truffe noire</p>
                   <p><strong>35€</strong></p>
                 </div>
               </div>
@@ -64,11 +63,11 @@
               </div>
             </div>
 
-            <div class="main__card">
+            <div class="main__card delay-2">
               <div class="main__txt">
-                <h3>Velouté de cèpes</h3>
+                <h3>Oeuf au plat</h3>
                 <div class="main__desc">
-                  <p>Aux truffes</p>
+                  <p>Assaisonné à la truffe sur lit de caviar</p>
                   <p><strong>20€</strong></p>
                 </div>
               </div>
@@ -83,11 +82,11 @@
           <h2>plats</h2>
           <div class="main__bar"></div>
           <div class="main__cards">
-            <div class="main__card">
+            <div class="main__card delay-0">
               <div class="main__txt">
-                <h3>Poulet rôti aux herbes de Provence</h3>
+                <h3>Filet de boeuf aux herbes</h3>
                 <div class="main__desc">
-                  <p>Et sa crème de truffe</p>
+                  <p>Accompagné de sa ribambelle de légumes</p>
                   <p><strong>40€</strong></p>
                 </div>
               </div>
@@ -96,11 +95,11 @@
               </div>
             </div>
 
-            <div class="main__card">
+            <div class="main__card delay-1">
               <div class="main__txt">
-                <h3>Langouste rôtie</h3>
+                <h3>Parmentier de queue de boeuf</h3>
                 <div class="main__desc">
-                  <p>Et ses légumes de saison</p>
+                  <p>À la truffe noire sur sa purée de panais</p>
                   <p><strong>35€</strong></p>
                 </div>
               </div>
@@ -109,11 +108,11 @@
               </div>
             </div>
 
-            <div class="main__card">
+            <div class="main__card delay-2">
               <div class="main__txt">
-                <h3>Côte de boeuf Angus</h3>
+                <h3>Filet de turbot</h3>
                 <div class="main__desc">
-                  <p>Et sa purée de panais</p>
+                  <p>Aux agrumes</p>
                   <p><strong>44€</strong></p>
                 </div>
               </div>
@@ -128,11 +127,11 @@
           <h2>desserts</h2>
           <div class="main__bar"></div>
           <div class="main__cards">
-            <div class="main__card">
+            <div class="main__card delay-0">
               <div class="main__txt">
-                <h3>Farandole de desserts</h3>
+                <h3>Paris-Brest</h3>
                 <div class="main__desc">
-                  <p>Du chef</p>
+                  <p>Revisité</p>
                   <p><strong>18€</strong></p>
                 </div>
               </div>
@@ -141,11 +140,11 @@
               </div>
             </div>
 
-            <div class="main__card">
+            <div class="main__card delay-1">
               <div class="main__txt">
-                <h3>Crème brulée</h3>
+                <h3>Macaron au chocolat d'exception</h3>
                 <div class="main__desc">
-                  <p>Revisitée</p>
+                  <p>Et glace à la vanille de Madagascar</p>
                   <p><strong>22€</strong></p>
                 </div>
               </div>
@@ -154,11 +153,11 @@
               </div>
             </div>
 
-            <div class="main__card">
+            <div class="main__card delay-2">
               <div class="main__txt">
-                <h3>Tiramisu</h3>
+                <h3>Mousse au chocolat</h3>
                 <div class="main__desc">
-                  <p>À la noisette</p>
+                  <p>Au piment d'Espelette et à la truffe noire</p>
                   <p><strong>23€</strong></p>
                 </div>
               </div>
