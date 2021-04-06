@@ -107,6 +107,7 @@ i {
 }
 
 @keyframes fadeIn {
+  /* faire grossir le coeur à l'intérieur */
   0% {
     opacity: 0.3;
   }
@@ -145,6 +146,7 @@ i {
 }
 
 @keyframes jump {
+  /* scattering */
   0% {
     transform: translateY(-0.3rem);
     opacity: 0;
@@ -218,6 +220,7 @@ i {
 }
 
 .main__card:hover .main__check {
+  /* elle grandit au lieu de taille fixe */
   margin-right: 0;
 }
 
