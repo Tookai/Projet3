@@ -84,7 +84,6 @@ i {
 }
 
 .header {
-  padding-top: 1rem;
   position: relative;
 }
 
@@ -96,6 +95,7 @@ i {
       -ms-flex-align: center;
           align-items: center;
   padding: 0.5rem;
+  padding-top: 1rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -104,10 +104,7 @@ i {
 .header__logo i {
   position: absolute;
   left: 2rem;
-  top: 1.8rem;
-  -webkit-box-align: middle;
-      -ms-flex-align: middle;
-          align-items: middle;
+  top: 1.4rem;
 }
 
 .header__img {
@@ -261,6 +258,11 @@ i {
 .main .delay-2 {
   -webkit-animation-delay: 0.4s;
           animation-delay: 0.4s;
+}
+
+.main .delay-3 {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
 }
 
 .main__txt {
