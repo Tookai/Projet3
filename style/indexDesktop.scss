@@ -1,0 +1,21 @@
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 100%;
+    max-width: 1400px;
+  }
+
+  .nav__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav__card {
+    flex: 1;
+    margin: 0 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .main__card {
+    max-width: 310px;
+  }
+}
