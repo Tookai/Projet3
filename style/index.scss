@@ -1,4 +1,4 @@
-@import "imports";
+@import "__imports";
 
 @include reset;
 
@@ -200,11 +200,6 @@ i {
     color: white;
   }
 
-  div {
-    display: flex;
-    align-items: center;
-  }
-
   h2 {
     padding-bottom: 1rem;
     font-size: 1.2rem;
@@ -219,5 +214,15 @@ i {
 
   &__icon {
     width: 2rem;
+  }
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+
+  div {
+    display: flex;
+    align-items: center;
   }
 }

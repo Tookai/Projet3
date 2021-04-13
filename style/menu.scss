@@ -1,4 +1,4 @@
-@import "imports.scss";
+@import "__imports.scss";
 
 @include reset;
 
@@ -227,16 +227,11 @@ i {
     color: white;
   }
 
-  div {
-    display: flex;
-    align-items: center;
-  }
-
   h2 {
     padding-bottom: 1rem;
+    font-size: 1.2rem;
     font-family: Shrikhand;
     font-weight: 400;
-    font-size: 1.2rem;
   }
 
   i {
@@ -245,6 +240,16 @@ i {
   }
 
   &__icon {
-    width: 1.5rem;
+    width: 2rem;
+  }
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+
+  div {
+    display: flex;
+    align-items: center;
   }
 }

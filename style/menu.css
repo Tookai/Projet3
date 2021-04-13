@@ -386,20 +386,11 @@ i {
   color: white;
 }
 
-.footer div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .footer h2 {
   padding-bottom: 1rem;
+  font-size: 1.2rem;
   font-family: Shrikhand;
   font-weight: 400;
-  font-size: 1.2rem;
 }
 
 .footer i {
@@ -408,6 +399,25 @@ i {
 }
 
 .footer__icon {
-  width: 1.5rem;
+  width: 2rem;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__list div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=menu.css.map */
