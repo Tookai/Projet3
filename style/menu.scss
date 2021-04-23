@@ -137,7 +137,13 @@ i {
     box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.1);
   }
 
-  .delay-0 {
+  @for $i from 0 to 3 {
+    .delay-#{$i} {
+      animation-delay: #{$i/7}s;
+    }
+  }
+
+/*   .delay-0 {
     animation-delay: 0s;
   }
 
@@ -151,7 +157,7 @@ i {
 
   .delay-3 {
     animation-delay: 0.6s;
-  }
+  } */
 
   &__txt {
     display: flex;

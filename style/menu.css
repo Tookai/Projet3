@@ -133,6 +133,21 @@ i {
           justify-content: center;
   position: relative;
   margin-top: -4rem;
+  /*   .delay-0 {
+    animation-delay: 0s;
+  }
+
+  .delay-1 {
+    animation-delay: 0.2s;
+  }
+
+  .delay-2 {
+    animation-delay: 0.4s;
+  }
+
+  .delay-3 {
+    animation-delay: 0.6s;
+  } */
 }
 
 .main h1 {
@@ -251,18 +266,13 @@ i {
 }
 
 .main .delay-1 {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+  -webkit-animation-delay: 0.14286s;
+          animation-delay: 0.14286s;
 }
 
 .main .delay-2 {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
-}
-
-.main .delay-3 {
-  -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
+  -webkit-animation-delay: 0.28571s;
+          animation-delay: 0.28571s;
 }
 
 .main__txt {

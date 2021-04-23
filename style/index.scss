@@ -178,15 +178,15 @@ i {
   &__new {
     text-align: center;
     position: relative;
+    float: right;
     width: 6rem;
     top: -10rem;
-    left: 15rem;
+    right: 1rem;
     padding: 0.4rem;
     background-color: $tertiary-color;
     border-radius: 0.2rem;
     color: darken($tertiary-color, 45);
     font-weight: 500;
-    z-index: 2;
   }
 
   &__subt {
@@ -203,6 +203,7 @@ i {
     justify-content: space-between;
     align-items: middle;
     vertical-align: middle;
+    width: 100%;
     position: relative;
     top: -1.8rem;
   }

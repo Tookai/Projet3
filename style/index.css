@@ -315,15 +315,15 @@ i {
 .main__new {
   text-align: center;
   position: relative;
+  float: right;
   width: 6rem;
   top: -10rem;
-  left: 15rem;
+  right: 1rem;
   padding: 0.4rem;
   background-color: #99e2d0;
   border-radius: 0.2rem;
   color: #217460;
   font-weight: 500;
-  z-index: 2;
 }
 
 .main__subt {
@@ -352,6 +352,7 @@ i {
       -ms-flex-align: middle;
           align-items: middle;
   vertical-align: middle;
+  width: 100%;
   position: relative;
   top: -1.8rem;
 }
