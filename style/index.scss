@@ -175,12 +175,36 @@ i {
     }
   }
 
+  &__new {
+    text-align: center;
+    position: relative;
+    width: 6rem;
+    top: -10rem;
+    left: 15rem;
+    padding: 0.4rem;
+    background-color: $tertiary-color;
+    border-radius: 0.2rem;
+    color: darken($tertiary-color, 45);
+    font-weight: 500;
+    z-index: 2;
+  }
+
   &__subt {
     padding: 0.5rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: middle;
     vertical-align: middle;
+  }
+
+  &__subtNew {
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: middle;
+    vertical-align: middle;
+    position: relative;
+    top: -1.8rem;
   }
 
   &__txt {

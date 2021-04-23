@@ -312,6 +312,20 @@ i {
   border-top-right-radius: 1rem;
 }
 
+.main__new {
+  text-align: center;
+  position: relative;
+  width: 6rem;
+  top: -10rem;
+  left: 15rem;
+  padding: 0.4rem;
+  background-color: #99e2d0;
+  border-radius: 0.2rem;
+  color: #217460;
+  font-weight: 500;
+  z-index: 2;
+}
+
 .main__subt {
   padding: 0.5rem 1rem;
   display: -webkit-box;
@@ -324,6 +338,22 @@ i {
       -ms-flex-align: middle;
           align-items: middle;
   vertical-align: middle;
+}
+
+.main__subtNew {
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: middle;
+      -ms-flex-align: middle;
+          align-items: middle;
+  vertical-align: middle;
+  position: relative;
+  top: -1.8rem;
 }
 
 .main__txt {
