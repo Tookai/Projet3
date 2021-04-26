@@ -73,6 +73,87 @@ a:visited {
   color: inherit;
 }
 
+@-webkit-keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  -webkit-animation: loading 3s ease-in;
+          animation: loading 3s ease-in;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -60px;
+  margin-top: -60px;
+  z-index: 0;
+  border: 16px solid #99e2d0;
+  border-top: 16px solid #ff79da;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2.5s linear;
+          animation: spin 2.5s linear;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+    opacity: 0;
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+    opacity: 0;
+  }
+}
+
 i {
   font-size: 1.4rem;
 }
@@ -261,18 +342,23 @@ i {
 }
 
 .main .delay-0 {
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .main .delay-1 {
-  -webkit-animation-delay: 0.14286s;
-          animation-delay: 0.14286s;
+  -webkit-animation-delay: 3.14286s;
+          animation-delay: 3.14286s;
 }
 
 .main .delay-2 {
-  -webkit-animation-delay: 0.28571s;
-          animation-delay: 0.28571s;
+  -webkit-animation-delay: 3.28571s;
+          animation-delay: 3.28571s;
+}
+
+.main .delay-3 {
+  -webkit-animation-delay: 3.42857s;
+          animation-delay: 3.42857s;
 }
 
 .main__txt {
