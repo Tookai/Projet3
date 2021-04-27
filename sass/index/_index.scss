@@ -1,7 +1,3 @@
-@import "__imports";
-
-@include reset;
-
 @include loader;
 
 h1 {
@@ -19,12 +15,6 @@ h2 {
 
 i {
   font-size: 1.2rem;
-}
-
-.container {
-  width: 100%;
-  margin: 0 auto;
-  background-color: white;
 }
 
 .header {
@@ -54,7 +44,7 @@ i {
   }
 
   &__slogan {
-    background-color: #f6f6f6;
+    background-color: $light-bg;
   }
 
   @include btn;
@@ -65,7 +55,7 @@ i {
 
   &__card {
     display: flex;
-    background-color: #f6f6f6;
+    background-color: $light-bg;
     padding: 1.5rem;
     margin-left: 1rem;
     margin-bottom: 2rem;
@@ -108,7 +98,7 @@ i {
 }
 
 .main {
-  background-color: #f6f6f6;
+  background-color: $light-bg;
   padding: 1rem;
 
   .full {
@@ -129,27 +119,9 @@ i {
   &__coeur {
     height: 50px;
     margin: auto 0;
-
-    &:hover .full {
-      display: flex;
-      animation: fadeIn 0.3s ease-out;
-    }
-
-    &:hover .empty {
-      display: flex;
-    }
-
-    &:active .full {
-      transform: scale(1.2);
-      color: red;
-      transition: 0.01s ease;
-    }
-
-    &:active .empty {
-      transform: scale(1.2);
-      transition: 0.01s ease;
-    }
   }
+
+  @include coeurAnim;
 
   &__cards {
     width: 100%;
@@ -217,39 +189,4 @@ i {
   }
 }
 
-.footer {
-  padding: 1.5rem;
-  background-color: #353535;
-  line-height: 1.5rem;
-  color: white;
-
-  a {
-    color: white;
-  }
-
-  h2 {
-    padding-bottom: 1rem;
-    font-size: 1.2rem;
-    font-family: Shrikhand;
-    font-weight: 400;
-  }
-
-  i {
-    margin-right: 1rem;
-    font-size: 0.8rem;
-  }
-
-  &__icon {
-    width: 2rem;
-  }
-}
-
-.footer__list {
-  display: flex;
-  flex-direction: column;
-
-  div {
-    display: flex;
-    align-items: center;
-  }
-}
+@include footer;
