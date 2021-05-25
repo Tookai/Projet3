@@ -384,8 +384,6 @@ i {
 
 .main__check {
   background-color: #99e2d0;
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -430,13 +428,13 @@ i {
   font-weight: 500;
   -webkit-box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(-8deg, #9356dc, #ff79da);
+  background: linear-gradient(-8deg, #6023a9, #ff13be);
 }
 
 .main button:hover {
   -webkit-box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(-8deg, #6023a9, #ff13be);
+  background: linear-gradient(-8deg, #9356dc, #ff79da);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
