@@ -416,9 +416,6 @@ i {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: middle;
-      -ms-flex-align: middle;
-          align-items: middle;
   vertical-align: middle;
 }
 
@@ -430,9 +427,6 @@ i {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: middle;
-      -ms-flex-align: middle;
-          align-items: middle;
   vertical-align: middle;
   width: 100%;
   position: relative;
