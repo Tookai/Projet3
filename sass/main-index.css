@@ -151,8 +151,8 @@ a:visited {
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  -webkit-animation: spin 2.5s linear;
-          animation: spin 2.5s linear;
+  -webkit-animation: spin 3s linear;
+          animation: spin 3s linear;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -202,7 +202,6 @@ i {
   position: relative;
   z-index: 0;
   background-color: #eaeaea;
-  font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -212,9 +211,32 @@ i {
   padding: 1rem;
 }
 
-.header__city i {
-  position: relative;
-  left: -2rem;
+.header__city input {
+  width: 160px;
+  height: 20px;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.header__city ::-webkit-input-placeholder {
+  color: inherit;
+}
+
+.header__city :-ms-input-placeholder {
+  color: inherit;
+}
+
+.header__city ::-ms-input-placeholder {
+  color: inherit;
+}
+
+.header__city ::placeholder {
+  color: inherit;
 }
 
 .header__slogan {

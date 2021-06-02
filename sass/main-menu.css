@@ -151,8 +151,8 @@ a:visited {
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  -webkit-animation: spin 2.5s linear;
-          animation: spin 2.5s linear;
+  -webkit-animation: spin 3s linear;
+          animation: spin 3s linear;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
