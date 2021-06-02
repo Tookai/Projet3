@@ -1,6 +1,6 @@
 @mixin loader {
   .container {
-    animation: loading 3s ease-in;
+    animation: loading $loader-time ease-in;
   }
 
   .loader {

@@ -115,7 +115,7 @@ i {
 
   @for $i from 0 to 4 {
     .delay-#{$i} {
-      animation-delay: #{($i/7) + 3}s;
+      animation-delay: #{($i/7) + $loader-time};
     }
   }
 
