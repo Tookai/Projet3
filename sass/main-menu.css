@@ -254,7 +254,7 @@ i {
 .main .full {
   position: absolute;
   top: 2.55rem;
-  right: 3rem;
+  right: 2rem;
   z-index: 1;
   color: #9356dc;
   display: none;
@@ -263,7 +263,7 @@ i {
 .main .empty {
   position: absolute;
   top: 2.55rem;
-  right: 3rem;
+  right: 2rem;
   z-index: 2;
   display: -webkit-box;
   display: -ms-flexbox;
