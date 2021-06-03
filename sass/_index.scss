@@ -71,7 +71,7 @@ i {
   @include btn;
 }
 
-.nav {
+.section {
   padding: 1.25rem;
 
   &__card {
@@ -235,12 +235,12 @@ i {
     max-width: 1400px;
   }
 
-  .nav__cards {
+  .section__cards {
     display: flex;
     justify-content: space-between;
   }
 
-  .nav__card {
+  .section__card {
     flex: 1;
     margin: 0 2rem;
     margin-bottom: 2rem;
