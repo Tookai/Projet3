@@ -113,7 +113,7 @@ i {
 
   @for $i from 0 to 4 {
     .delay-#{$i} {
-      animation-delay: #{$i/7};
+      animation-delay: #{$i/7}s;
     }
   }
 

@@ -310,23 +310,23 @@ i {
 }
 
 .main .delay-0 {
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .main .delay-1 {
-  -webkit-animation-delay: 0.14286;
-          animation-delay: 0.14286;
+  -webkit-animation-delay: 0.14286s;
+          animation-delay: 0.14286s;
 }
 
 .main .delay-2 {
-  -webkit-animation-delay: 0.28571;
-          animation-delay: 0.28571;
+  -webkit-animation-delay: 0.28571s;
+          animation-delay: 0.28571s;
 }
 
 .main .delay-3 {
-  -webkit-animation-delay: 0.42857;
-          animation-delay: 0.42857;
+  -webkit-animation-delay: 0.42857s;
+          animation-delay: 0.42857s;
 }
 
 .main__txt {
