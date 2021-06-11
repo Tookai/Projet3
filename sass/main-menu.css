@@ -139,28 +139,6 @@ a:hover {
   background-color: white;
 }
 
-.container {
-  -webkit-animation: loading 3s ease-in;
-          animation: loading 3s ease-in;
-}
-
-.loader {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -60px;
-  margin-top: -60px;
-  border: 16px solid #99e2d0;
-  border-top: 16px solid #ff79da;
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 3s linear;
-          animation: spin 3s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
 i {
   font-size: 1.4rem;
 }
@@ -332,23 +310,23 @@ i {
 }
 
 .main .delay-0 {
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
 }
 
 .main .delay-1 {
-  -webkit-animation-delay: 3.14286s;
-          animation-delay: 3.14286s;
+  -webkit-animation-delay: 0.14286;
+          animation-delay: 0.14286;
 }
 
 .main .delay-2 {
-  -webkit-animation-delay: 3.28571s;
-          animation-delay: 3.28571s;
+  -webkit-animation-delay: 0.28571;
+          animation-delay: 0.28571;
 }
 
 .main .delay-3 {
-  -webkit-animation-delay: 3.42857s;
-          animation-delay: 3.42857s;
+  -webkit-animation-delay: 0.42857;
+          animation-delay: 0.42857;
 }
 
 .main__txt {
