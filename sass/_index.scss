@@ -125,7 +125,6 @@ i {
 
   .full {
     position: relative;
-    z-index: 1;
     top: -0.7rem;
     display: none;
   }
@@ -133,7 +132,6 @@ i {
   .empty {
     position: relative;
     top: 0.5rem;
-    z-index: 2;
     display: flex;
   }
 
