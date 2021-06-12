@@ -389,13 +389,6 @@ i {
   transition: 0.01s ease;
 }
 
-.main__coeur:active .empty {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-transition: 0.01s ease;
-  transition: 0.01s ease;
-}
-
 .main__cards {
   width: 100%;
   display: -webkit-box;
