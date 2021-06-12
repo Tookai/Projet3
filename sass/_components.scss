@@ -30,11 +30,11 @@
     color: white;
     font-weight: 500;
     box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(-8deg, darken($primary-color, 20%), darken($secondary-color, 20%));
+    background: linear-gradient(-8deg, $primary-color, $secondary-color);
 
     &:hover {
       box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.3);
-      background: linear-gradient(-8deg, $primary-color, $secondary-color);
+      background: linear-gradient(-8deg, lighten($primary-color, 5%), lighten($secondary-color, 5%));
       transition: 0.5s;
     }
 
@@ -54,6 +54,7 @@
 
     &:hover .empty {
       display: flex;
+      opacity: 0;
     }
 
     &:active .full {
