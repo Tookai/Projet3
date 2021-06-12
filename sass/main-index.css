@@ -343,7 +343,6 @@ i {
   position: relative;
   z-index: 1;
   top: -0.7rem;
-  color: linear-gradient(-8deg, #9356dc, #ff79da);
   display: none;
 }
 
@@ -361,6 +360,13 @@ i {
   margin: auto 0;
 }
 
+.main .fa-gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), to(#ff79da));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .main__coeur:hover .full {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -374,12 +380,13 @@ i {
   display: -ms-flexbox;
   display: flex;
   opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .main__coeur:active .full {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  color: red;
   -webkit-transition: 0.01s ease;
   transition: 0.01s ease;
 }

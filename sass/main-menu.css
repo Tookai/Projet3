@@ -234,7 +234,6 @@ i {
   top: 2.55rem;
   right: 2rem;
   z-index: 1;
-  color: #9356dc;
   display: none;
 }
 
@@ -246,6 +245,13 @@ i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.main .fa-gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), to(#ff79da));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main__coeur:hover .full {
@@ -261,12 +267,13 @@ i {
   display: -ms-flexbox;
   display: flex;
   opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .main__coeur:active .full {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  color: red;
   -webkit-transition: 0.01s ease;
   transition: 0.01s ease;
 }
